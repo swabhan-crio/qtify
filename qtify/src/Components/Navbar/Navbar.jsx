@@ -8,10 +8,8 @@ const Navbar = ({ onFeedbackButtonClick }) => {
     return (
         <div className='navbar'>
             <div className='logo'><Logo/></div>
-            <div>
                 <Searchbar />
-            </div>
-           <div className='feedback'><Feedback onFeedbackButtonClick={onFeedbackButtonClick}/></div>
+                <Feedback onFeedbackButtonClick={onFeedbackButtonClick}/>
         </div>
         // <nav>
         //     <Logo/>

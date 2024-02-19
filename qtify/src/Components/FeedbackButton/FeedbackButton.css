@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 12px;
-    position: relative;
+    /* position: relative; */
     border: 1px;
     /* padding: 10px 16px 10px 16px; */
     margin-right: 3vw;
@@ -19,8 +19,8 @@
     font-family: Poppins;
     font-size: 20px;
     color:  #34c94b;
-    position: relative;
-    left: 20px;
+    /* position: relative; */
+    /* left: 20px; */
 }
 
 

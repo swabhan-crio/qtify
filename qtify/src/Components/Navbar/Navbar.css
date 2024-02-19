@@ -8,11 +8,18 @@
 }
 
 .logo {
-    margin-left: 3vw;
+    margin-left: 20px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 60px;
 }
 
-
+.logo img {
+    height: auto;
+    width: 100%;
+}
 
 .collapse {
     cursor: pointer;
