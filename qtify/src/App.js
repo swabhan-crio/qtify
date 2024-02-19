@@ -1,14 +1,15 @@
 
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   
   return (
-    <>
-        <Navbar/>
-    </>
+    <div className='appclass'>
+      <Navbar/>
+    </div>
+        
   );
 }
 
