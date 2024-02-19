@@ -1,7 +1,7 @@
 import React from "react";
-import LogoImage from "../../assets/logo.png";
+//import LogoImage from "./logo.png";
 
 export default function Logo(){
-    return <img src={LogoImage} alt = "QTify Logo" width={50}/>
+    return <img src={"./logo.png"} alt = "QTify Logo" width={50}/>
 }
 

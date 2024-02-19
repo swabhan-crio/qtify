@@ -1,5 +1,7 @@
 .searchbar {
     display: flex;
+    align-items:center;
+    justify-content: center;
     height: 48px;
     width: 50vw;
     border: 1px black;
@@ -22,6 +24,19 @@
     border-radius:0 12px 12px 0;
     cursor: pointer;
 
+}
+
+.searchicon {
+    background-color: white;
+    border: 1px solid black;
+    height: 36px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    cursor: pointer;
 }
 
 .searchbar button icon {
