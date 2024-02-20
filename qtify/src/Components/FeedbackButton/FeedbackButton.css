@@ -7,6 +7,9 @@
     align-items: center;
     justify-content: center;
     border-radius: 12px;
+    font-family: Poppins;
+    font-size: 20px;
+    color:  #34c94b;
     /* position: relative; */
     border: 1px;
     /* padding: 10px 16px 10px 16px; */
@@ -15,13 +18,13 @@
 
 }
 
-.feedback h3 {
+/* .feedback h3 {
     font-family: Poppins;
     font-size: 20px;
     color:  #34c94b;
-    /* position: relative; */
-    /* left: 20px; */
-}
+    position: relative;
+    left: 20px;
+} */
 
 
 
@@ -32,5 +35,4 @@
         display: none;
     }
 }
-
 

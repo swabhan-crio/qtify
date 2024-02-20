@@ -3,13 +3,17 @@ import './Searchbar.css'
 //import  SearchIcon from './search-icon.svg'
 const Searchbar = () => {
   return (
-    <div className='searchbar'>
-        <input type="text" placeholder='Search a album of your choice'/>
-        <div className='searchicon'>
-          <img src="./search-icon.svg" alt="Search-icon" />
-        </div>
-    </div>
-  )
+    <>
+      <input
+        type="text"
+        className="searchbar"
+        placeholder="Search an album of your choice"
+      />
+      <div className="searchicon">
+        <img src="./search-icon.svg" alt="Search-icon" />
+      </div>
+    </>
+  );
 }
 
 export default Searchbar
