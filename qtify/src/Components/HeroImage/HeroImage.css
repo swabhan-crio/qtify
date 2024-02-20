@@ -1,0 +1,25 @@
+.heroimage {
+    height: 270px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-family: poppins;
+    /* background-color: #121212; */
+}
+
+.heroimage img {
+    width: 200px; /* Set the width of the image */
+    height: 200px; /* Maintain aspect ratio */
+}
+
+
+
+@media (max-width: 577px){
+
+    .heroimage {
+        font-size: 8px;
+    }
+
+}
